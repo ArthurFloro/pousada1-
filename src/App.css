@@ -1,38 +1,100 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background: url("../src/imgs/planodefundo.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.title{
+  color: white;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-top: 40px;
+}
+
+.descricao{
   color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+  font-size: 25px;
+
 }
 
-.App-link {
-  color: #61dafb;
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container{
+  margin-top: 60px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
 }
+
+.card1{
+background-color: #93631f;
+padding: 20px;
+border-radius: 8px;
+gap: 10px;
+}
+
+.card2{
+  background-color: #93631f;
+  padding: 20px;
+  border-radius: 8px;
+  gap: 10px;
+  }
+
+  .card3{
+    background-color: #93631f;
+    padding: 20px;
+    border-radius: 8px;
+    gap: 10px;
+    }
+
+    .card1 img{
+      max-width: 350px;
+    }
+
+    .card2 img{
+      max-width: 350px;
+    }
+
+.card3 img{
+  max-width: 350px;
+}
+
+
+.midias button{
+  border: none;
+  background-color: #ab7932;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
+
+.midias button:hover{
+  cursor: pointer;
+  background-color: #93631f;
+  transition: 0.5s;
+}
+
+
